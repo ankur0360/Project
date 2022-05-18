@@ -11,4 +11,4 @@ for i in range(0,len(b)):
 	if b[i] in a.keys():
 		print('Here is the data :',b[i],'->',a[b[i]]) #b[i],it prints the key and a[b[i]],it prints the value of this key
 	else:
-		print(b[i],'is a invalid data.')  #if there is not existing key ,it prints in valid data
+		print(b[i],'is a invalid data.')  #if there is not existing key ,it prints invalid data
